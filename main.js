@@ -1,1 +1,7 @@
-console.log("This is my very first js line!!")
+// Changes the image of the dog
+async function changeImage() {
+    const response = await fetch("http://shibe.online/api/shibes?count=1")
+    const image = await response.json()
+    console.log(image[0])
+    document.getElementById("dog").src = image[0]
+}
