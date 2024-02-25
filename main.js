@@ -10,6 +10,7 @@ async function galaxyMode() {
     if (document.getElementById("galaxy").innerText === "Galaxy Mode") {
         document.getElementById("galaxy").innerText = "Normal Mode"
         document.getElementById("idBody").style.backgroundImage= "url('https://th.bing.com/th/id/R.c2501d8117269d8ce2c7874563383281?rik=%2fG3t0faBx8x%2fOw&pid=ImgRaw&r=0.gif')";
+        document.getElementById("quote").style.color = '#ffffff';
     }
     else {
         document.getElementById("galaxy").innerText = "Galaxy Mode"
@@ -17,3 +18,27 @@ async function galaxyMode() {
     }
 
 }
+
+const galaxyQuotes = ["You're out of this world!",
+    "You're a Blast!",
+    "You rock my world!",
+    "You are Space-cial!"];
+
+const normalQuotes = ["You're totally PAW-some!",
+    "Stay PAW-sitive",
+    "You are re-bark-able!",
+    "You're a diamond in the ruff!"];
+
+
+async function changeQuote() {
+    let labelElement = document.getElementById("quote");
+    if (document.getElementById("galaxy").innerText === "Normal Mode") {
+        labelElement.innerHTML = galaxyQuotes[Math.floor(Math.random() * galaxyQuotes.length)];
+    }
+    else {
+        labelElement.innerHTML = normalQuotes[Math.floor(Math.random() * galaxyQuotes.length)];
+    }
+
+}
+
+//end of code

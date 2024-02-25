@@ -29,10 +29,29 @@ h2 {
     width: 80px;
     height: 30px;
     color: grey;
+    margin: 10px;
+;
+}
+
+#word {
+    background-color: #e7cba7;
+    border-radius: 8px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: grey;
+    margin: 10px;
 ;
 }
 
 
 #title {
     text-align: center;
+
+}
+
+#quote {
+    -webkit-text-stroke: 2px black;
+    font-size: 30px;
+    font-family: "Comic Sans MS", serif;
 }
