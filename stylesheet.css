@@ -1,18 +1,27 @@
 body {
     background-color:burlywood;
     text-align: center;
-
+    margin: 0;
+    padding: 0;
 }
+
 h2 {
     font-family: "Goudy Old Style", serif ;
     font-size: 20px;
     text-align: center;
 }
 
-button {
-    background-color: darkkhaki;
+#submit {
+    background-color: #e7cba7;
     margin: 4px 2px;
-    border-radius: 50%
+    border-radius: 8px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: grey;
 ;
 }
 
+#title {
+    text-align: center;
+}
