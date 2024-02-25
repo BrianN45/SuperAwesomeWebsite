@@ -1,3 +1,18 @@
 body {
-    background-color:honeydew;
+    background-color:burlywood;
+    text-align: center;
+
 }
+h2 {
+    font-family: "Goudy Old Style", serif ;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: darkkhaki;
+    margin: 4px 2px;
+    border-radius: 50%
+;
+}
+
