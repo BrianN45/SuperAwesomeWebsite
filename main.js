@@ -46,5 +46,3 @@ async function changeQuote() {
     }
 
 }
-
-//end of code
