@@ -7,7 +7,13 @@ async function changeImage() {
 }
 
 async function galaxyMode() {
-    console.log(1)
-    document.getElementById("idBody").style.backgroundImage= "url('https://th.bing.com/th/id/R.c2501d8117269d8ce2c7874563383281?rik=%2fG3t0faBx8x%2fOw&pid=ImgRaw&r=0.gif')";
-}
+    if (document.getElementById("galaxy").innerText === "Galaxy Mode") {
+        document.getElementById("galaxy").innerText = "Normal Mode"
+        document.getElementById("idBody").style.backgroundImage= "url('https://th.bing.com/th/id/R.c2501d8117269d8ce2c7874563383281?rik=%2fG3t0faBx8x%2fOw&pid=ImgRaw&r=0.gif')";
+    }
+    else {
+        document.getElementById("galaxy").innerText = "Galaxy Mode"
+        document.getElementById("idBody").style.backgroundImage = ""
+    }
 
+}

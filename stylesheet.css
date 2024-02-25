@@ -13,7 +13,7 @@ h2 {
 
 #submit {
     background-color: #e7cba7;
-    margin: 4px 2px;
+    margin: 10px;
     border-radius: 8px;
     border: none;
     width: 80px;
@@ -21,6 +21,17 @@ h2 {
     color: grey;
 ;
 }
+
+#galaxy {
+    background-color: #e7cba7;
+    border-radius: 8px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: grey;
+;
+}
+
 
 #title {
     text-align: center;
