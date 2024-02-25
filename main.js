@@ -11,11 +11,16 @@ async function galaxyMode() {
         document.getElementById("galaxy").innerText = "Normal Mode"
         document.getElementById("idBody").style.backgroundImage= "url('https://th.bing.com/th/id/R.c2501d8117269d8ce2c7874563383281?rik=%2fG3t0faBx8x%2fOw&pid=ImgRaw&r=0.gif')";
         document.getElementById("galaxy").style.backgroundColor = '#063882';
+        document.getElementById("submit").style.backgroundColor = '#063882';
+        document.getElementById("word").style.backgroundColor = '#063882';
     }
     else {
         document.getElementById("galaxy").innerText = "Galaxy Mode"
         document.getElementById("idBody").style.backgroundImage = ""
         document.getElementById("galaxy").style.backgroundColor = '#e7cba7';
+        document.getElementById("submit").style.backgroundColor = '#e7cba7';
+        document.getElementById("word").style.backgroundColor = '#e7cba7';
+
     }
 
 }
