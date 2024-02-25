@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Super Awesome Shiba Inus</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="main.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Super Awesome Shiba Inus</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="main.js"></script>
+    </head>
 
-<body id="idBody">
-    <div style="background-color: #d9ad74;margin-bottom:15px; overflow:hidden">
-        <h2 id="title">Shiba Inu Inspiration</h2>
-    </div>
-    <div>
-        <h3 id="quote">You're so PAW-some!</h3>
-    </div>
-    <img id="dog" src="https://cdn.shibe.online/shibes/97f878a9d0f1de5e9dd92d303c1350d6acef29d0.jpg" width="80%" height=70% alt="Adorable picture of a silly Shiba Inu." style="border-radius:15px">
-    <br>
+    <body id="idBody">
+        <header class="shadow">
+            <h2 id="title">Shiba Inu Fan Club!</h2>
+        </header>
+        <h1 id="quote">You're so pawsome!</h1>
+        <img id="dog" class="shadow" src="https://cdn.shibe.online/shibes/97f878a9d0f1de5e9dd92d303c1350d6acef29d0.jpg" width="80%" height=70% alt="Adorable picture of a silly Shiba Inu." style="border-radius:15px;border: .1em solid white;">
+        <br>
         <div style="display: flex; align-items:center; justify-content:center">
-            <button id="galaxy" onclick="galaxyMode()">Galaxy Mode</button>
-            <button id="submit" onclick="changeImage()">Change Picture</button>
-            <button id="word" onclick="changeQuote()">Inspire Me</button>
+            <button id="galaxy" class="shadow" onclick="galaxyMode()">Galaxy Mode</button>
+            <button id="submit" class="shadow" onclick="changeImage()">Change Picture</button>
+            <button id="word" class="shadow"onclick="changeQuote()">Inspire Me</button>
         </div>
-
-</body>
+    </body>
 </html>
